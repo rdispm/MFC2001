@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Bricks - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/Bricks.res" /d "NDEBUG" "C:\Topik\VCProjects\Bricks\Bricks.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP378.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Bricks.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Topik\VCProjects\Bricks\BricksDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP378.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP379.tmp" with contents
+[
+winmm.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Bricks.pdb" /machine:I386 /out:"Release/Bricks.exe" 
+.\Release\Bricks.obj
+.\Release\BricksDlg.obj
+.\Release\EnterNameDlg.obj
+.\Release\Scores.obj
+.\Release\StdAfx.obj
+.\Release\Bricks.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP379.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+BricksDlg.cpp
+C:\Topik\VCProjects\Bricks\BricksDlg.cpp(356) : warning C4101: 'i' : unreferenced local variable
+C:\Topik\VCProjects\Bricks\BricksDlg.cpp(757) : warning C4101: 'i' : unreferenced local variable
+C:\Topik\VCProjects\Bricks\BricksDlg.cpp(848) : warning C4715: 'CBricksDlg::Finish' : not all control paths return a value
+Linking...
+LINK : warning LNK4089: all references to "SHELL32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+Bricks.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,20 @@
+MASTER-MASON             15000
+RRR                      10073
+STONEMASON               10000
+ROBERT                    9973
+                          9648
+WALLER                    9500
+BRICKLAYER                9000
+PADDY                     8500
+BRICKY                    8000
+HODMAN                    7500
+COWAN                     7000
+LAPICIDE                  6500
+HEWER                     6000
+CHIPPER                   5000
+SAVAGE                    4000
+BARBARIAN                 3000
+PREHISTORIC               1000
+                              
+                              
+                              

@@ -1,0 +1,13 @@
+#if !defined HCONSTANTS
+#define HCONSTANTS
+
+#define GAMEBOARDSIZE 4
+#define BOARDLEFT 20
+#define BOARDTOP 20
+#define BOARDCOLORGRID RGB(0,150,150)
+#define LINECOLORGRID RGB(0,0,100)
+#define BOARDCOLOR RGB(0,200,200)
+#define LINECOLOR RGB(10,10,100)
+
+
+#endif
